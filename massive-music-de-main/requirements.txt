@@ -1,0 +1,20 @@
+# The demo pipeline runs on the Python standard library only
+# (csv, json, sqlite3, re, unicodedata, hashlib) — no install needed:
+#     python -m src.pipeline
+#
+# The packages below are OPTIONAL and only used for the production-grade
+# variants described in docs/ (real API calls, dataframe transforms, DQ tests).
+
+# --- real API ingestion (replaces the mock clients) ---
+# requests>=2.31
+# spotipy>=2.23                # Spotify Web API wrapper
+# google-api-python-client>=2  # YouTube Data API v3
+
+# --- scaled transforms ---
+# pandas>=2.0
+
+# --- data-quality framework (production) ---
+# great-expectations>=0.18
+
+# --- dev / test ---
+# pytest>=8.0
