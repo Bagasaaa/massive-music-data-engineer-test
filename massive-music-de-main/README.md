@@ -2,6 +2,9 @@
 1. Extract.ipynb
 Extracting Data from Youtube API. I apologize for the limitation regarding the Spotify Web API. I am unable to use it due to legal constraints, as it requires a Spotify Premium account through the official developer platform (https://developer.spotify.com/dashboard).
 
+Task 2
+Data Pipeline Architecture, Data Quality and Validation Strategy, Data Storage Layer Design, Pipeline Monitoring and Maintenance Plan
+
 Technical test solution (**Tasks** section) for a music-publishing data pipeline that
 ingests song & video metadata from **Spotify** and **YouTube** on top of an internal
 catalogue of **699 songs**, and answers two business questions:
